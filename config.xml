@@ -15,8 +15,8 @@
     <content src="index.html" />
     <access origin="*" />
 
-    <icon src="img/StoreArt.png"/>
-  
+    <icon src="img/logo.png"/>
+
     <preference name="Fullscreen" value="false" />
     <preference name="phonegap-version" value="cli-6.4.0" /> <!-- Phonegap Build only -->
 
@@ -26,7 +26,7 @@
     <plugin name="cordova-plugin-geolocation" version="2.1.0" />
     <plugin name="cordova-plugin-camera" version="2.1.0" />
     <plugin name="cordova-plugin-device-motion" spec="1.2.3" />
-    <plugin name="https://github.com/wildabeast/BarcodeScanner.git" /> 
+    <plugin name="https://github.com/wildabeast/BarcodeScanner.git" />
 
     <plugin name="cordova.plugins.diagnostic" version="*" />
     <!--<plugin spec="https://github.com/dpa99c/cordova-diagnostic-plugin.git#dev" source="git" />-->
@@ -35,7 +35,7 @@
         <plugin name="cordova-plugin-file" version="*" />
 
         <preference name="android-build-tool" value="gradle" /> <!-- Phonegap Build only -->
-        
+
         <preference name="android-minSdkVersion" value="14" />
         <preference name="android-targetSdkVersion" value="23" />
 

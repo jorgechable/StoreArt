@@ -65,6 +65,26 @@ angular.module('app.routes', [])
     }
   })
 
+  .state('menu.login', {
+    url: '/page7',
+    views: {
+      'side-menu21': {
+        templateUrl: 'templates/login.html',
+        controller: 'loginCtrl'
+      }
+    }
+  })
+
+  .state('menu.signup', {
+    url: '/page8',
+    views: {
+      'side-menu21': {
+        templateUrl: 'templates/signup.html',
+        controller: 'signupCtrl'
+      }
+    }
+  })
+
 $urlRouterProvider.otherwise('/side-menu21/page5')
 
 
